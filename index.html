@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Dream Vacation Destination</title>
+    <link rel="icon" href="./images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <h1>My Dream Vacation Destination</h1>
+   <div class="container">
+       <img src="./images/logo.jpg" alt="logo" width="100px" class="logo" />
+        <h1 id="m-title">My Dream <strong>Vacation</strong> Destination</h1>
+        </div>
         <p>I want to go to Paris,Rome and Bali.These places are very different, but they all sound amazing. Paris is known for its romance and beauty. 
             Rome is famous for its history and culture. Bali is a tropical paradise woth beautiful beaches and mountains. I can't wait to visit all three
             places and explore their unique charms.
         </p>
 
         <h2>Paris, France</h2>
+           <figure>
             <img src="./Images/paris1.jpeg" alt="Eiffel Tower in Paris" width="300px">
+                <figcaption><a href="https://www.toureiffel.paris/en" target="_blank" >Eiffel Tower in Paris.</a></figcaption>
             <img src="./Images/paris2.jpeg" alt="Louvre Museum in Paris" width="300px">
+            <figcaption><a href="https://en.wikipedia.org/wiki/Louvre" target="_blank" >Louvre Museum in Paris.</a></figcaption>
             <img src="./Images/paris3.jpeg" alt="Seine River in Paris" width="300px">
+            <figcaption><a href="https://en.wikipedia.org//wiki/Seine" target="_blank" >Seine River in Paris.</a></figcaption>
+           </figure>
+      <div class="list">
         <h3>Packing List</h3>
         <ul>
             <li>Stylish outfits</li>
@@ -24,12 +35,18 @@
             <li>Camera</li>
             <li>Travel pillow</li>
         </ul>
+      </div>
 
         <h2>Rome, Italy</h2>
         <div>
+            <figure>
             <img src="./Images/Colosseum.jpeg" alt="Colosseum in Rome"width="300px">
+            <figcaption><a href="https://en.wikipedia.org/wiki/Colosseum" target="_blank" >Colosseum in Rome</a></figcaption>
             <img src="./Images/rome2.jpeg" alt="Trevi Fountain in Rome" width="300px">
+            <figcaption><a href="https://en.wikipedia.org/wiki/Trevi_Fountain" target="_blank" >Trevi Fountain in Rome</a></figcaption>
             <img src="./Images/rome3.jpeg" alt="Vatican City in Rome" width="300px">
+            <figcaption><a href="https://www.thevaticantickets.com/vatican-city/" target="_blank" >Vatican City in Rome</a></figcaption>
+            </figure>
         </div>
         <h3>Packing List</h3>
         <ul>
@@ -42,9 +59,14 @@
 
         <h2>Bali, Indonesia</h2>
         <div>
+            <figure>
             <img src="./Images/bali1.jpeg" alt="Bali beach view" width="300px">
+            <figcaption><a href="https://www.tripadvisor.com/Attractions-g294226-Activities-c61-t52-Bali.html" target="_blank" >Bali beach view.</a></figcaption>
             <img src="./Images/bali2.jpeg" alt="Rice terraces in Bali" width="300px">
+            <figcaption><a href="https://theworldtravelguy.com/tegalalang-rice-terrace-fields-in-ubud-bali/" target="_blank" >Rice terraces in Bali.</a></figcaption>
             <img src="./Images/bali3.jpeg" alt="Uluwatu Temple in Bali" width="300px">
+            <figcaption><a href="https://www.raftingbali.net/uluwatu-temple-bali/" target="_blank" >Uluwatu Temple in Bali.</a></figcaption>
+            </figure>
         </div>
         <h3>Packing List</h3>
         <ul>
@@ -69,7 +91,7 @@
             <label for="places">Places You Would Like to Visit:</label>
             <textarea id="places"  ></textarea><br><br>
 
-            <input type="submit">
+            <input type="submit" class="submit">
         </form>
 </body>
 </html>
